@@ -1,5 +1,5 @@
 # Mondrian
-对每行每列循环，让后再对其中一些矩形经行循环分割成更小的矩形，达到临摹蒙德里安的效果。随机黑白灰，其中对于黑色的矩形有大小要求。点击画面随机生成蒙德里安临摹画。
+
 
 
 float rowSize = 0;
@@ -22,7 +22,7 @@ void mondrianStyle(){
        strokeWeight(4);
        stroke(0); 
        
-//separate the column again:
+//separate the column again
      for(int row0=row; row0<= (row+rowSize); row0 += rowSize0 + 4){
           rowSize0 = random(rowSize/4, rowSize);
           if ( 400 > rowSize && rowSize > 125  && colSize> 125 && 400 > colSize){
