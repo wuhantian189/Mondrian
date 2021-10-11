@@ -1,12 +1,11 @@
 # Mondrian
-
+```
 float rowSize = 0;
 float colSize = 0;
 float rowSize0 = 0;
 
 color[] colors = { #ffffff, #808080};
 color[] colors0 = { #ffffff,#808080,#000000};
-
 
 void mondrianStyle(){
    for(int row=0; row< height; row += rowSize + 4){
@@ -53,6 +52,8 @@ void setup(){
 void draw() {
   if (mousePressed){
         mondrianStyle();
+        
   }
 //Regenerate when the mouse is clicked
 }
+```
