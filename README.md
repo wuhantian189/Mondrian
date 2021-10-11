@@ -1,7 +1,5 @@
 # Mondrian
 
-
-
 float rowSize = 0;
 float colSize = 0;
 float rowSize0 = 0;
